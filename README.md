@@ -1,5 +1,5 @@
 # gentoo_installer
-a python set of scripts for live or boot-to-live environment for installing gentoo on BTRFS, ZFS, and other file systems. Utilizes YAML configurations and has unit-tests. 
+a python set of scripts for live or boot-to-live environment for installing gentoo on BTRFS, ZFS, and other file systems. Utilizes YAML configurations and has unit-tests. BASH is only used as a brief interface, if python cannot address effeciently enough. 
 
 Can create a bottable USB for boot-to-live environment.
 
