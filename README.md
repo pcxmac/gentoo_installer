@@ -5,7 +5,7 @@ Can create a bottable USB for boot-to-live environment.
 
 supports custom initramfs for protected rootfs/user space
 
-includes : (separate github projects)
+includes : (separate github projects) { python + eBPF }
 
   update-agent (for working on BTRFS/ZFS/COW F-S) to perform silent / background updates, and boot loader updates as well as initramfs-updates AND kernel updates.
   
@@ -15,4 +15,4 @@ includes : (separate github projects)
   
   logging-facility (collection of several logging facilities, kernel_panics, kernel messages, syslog messages, init messages, w/ backup online/offline schema)
   
-  
+  gentoo-info (package information + gentoo OS configuration information)
